@@ -8,7 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <form>
+        <p>
+            <label>Informe seu salário por hora: </label>
+            <input id="sal_hora">
+        </p>
+        <p>
+            <label>Informe a quantidade de horas trabalhadas: </label>
+            <input id="horas_trabalhadas">
+        </p>
+        <p>
+            <button type="button" onclick="calcularsalario()">Calcular salário</button>
+        </p>
+    </form>
+    <h3 id="resultado"></h3>
     <script src="app.js"></script>
 </body>
 </html>
